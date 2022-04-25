@@ -23,6 +23,7 @@ struct PullRequestsView: View {
       List {
         ForEach(viewModel.prs) { pr in
 					Text(pr.title ?? "No Title")
+					Text(pr.state ?? "No State")
         }
       }
     }
