@@ -149,7 +149,6 @@ struct NetworkRequest {
         DispatchQueue.main.async {
           NetworkRequest.accessToken = dictionary["access_token"]
           NetworkRequest.refreshToken = dictionary["refresh_token"]
-          // swiftlint:disable:next force_cast
           completionHandler(.success((response, "Success" as! T)))
         }
         return

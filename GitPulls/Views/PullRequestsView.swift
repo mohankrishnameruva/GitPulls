@@ -22,9 +22,27 @@ struct PullRequestsView: View {
         .padding()
       List {
         ForEach(viewModel.prs) { pr in
-					Text(pr.title ?? "No Title")
+					VStack{
+						HStack {
+							Text(pr.title ?? "No Title").bold().foregroundColor(Color.black)
+							Spacer()
+							Text(pr.state ?? "No State").foregroundColor(Color.black).bold()
+																					.padding(.horizontal, 4)
+																					.padding(.vertical, 4)
+																					.background(statutsBackground)
+
+						}
+						HStack {
+							Text(pr.body ?? "").foregroundColor(Color.black).font(Font.system(size: 12))
+							Spacer()
+						}
+						HStack {
+							Text("Assignee -  \(pr.assignee?.login ?? "")").foregroundColor(Color.black).font(Font.system(size: 12))
+							Spacer()
+						}
+					}
         }
-      }
+      }.background(Color.green)
     }
     .navigationBarTitle("Your Pull Requests", displayMode: .inline)
     .navigationBarItems(leading: signOutButton)
@@ -40,6 +58,11 @@ struct PullRequestsView: View {
       displayed = false
     }
   }
+	
+	private var statutsBackground: some View {
+		RoundedRectangle(cornerRadius: 8)
+			.fill(Color.gray)
+	}
 }
 
 struct PullRequestsView_Previews: PreviewProvider {

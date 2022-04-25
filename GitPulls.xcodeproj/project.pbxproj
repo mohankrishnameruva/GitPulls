@@ -68,6 +68,8 @@
 				26BC41842816FFF700029FEB /* ViewModel */,
 				26BC41812816FFF700029FEB /* Views */,
 				26BC41782816FED600029FEB /* Model */,
+				26BC417C2816FED600029FEB /* NetworkRequest.swift */,
+				26BC41792816FED600029FEB /* NetworkRequest+User.swift */,
 				2605D9DC280F45B900E37AC1 /* GitPullsApp.swift */,
 				2605D9E2280F45BA00E37AC1 /* Preview Content */,
 			);
@@ -85,10 +87,8 @@
 		26BC41782816FED600029FEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				26BC41792816FED600029FEB /* NetworkRequest+User.swift */,
 				26BC417A2816FED600029FEB /* User.swift */,
 				26BC417B2816FED600029FEB /* PullRequest.swift */,
-				26BC417C2816FED600029FEB /* NetworkRequest.swift */,
 				26BC418D281724C000029FEB /* Repository.swift */,
 			);
 			path = Model;
