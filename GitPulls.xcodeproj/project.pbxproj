@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2605D9DD280F45B900E37AC1 /* GitPullsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2605D9DC280F45B900E37AC1 /* GitPullsApp.swift */; };
-		2605D9DF280F45B900E37AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2605D9DE280F45B900E37AC1 /* ContentView.swift */; };
-		2605D9E1280F45BA00E37AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2605D9E0280F45BA00E37AC1 /* Assets.xcassets */; };
 		2605D9E4280F45BA00E37AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2605D9E3280F45BA00E37AC1 /* Preview Assets.xcassets */; };
-		2605D9E6280F45BA00E37AC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2605D9E5280F45BA00E37AC1 /* Persistence.swift */; };
-		2605D9E9280F45BA00E37AC1 /* GitPulls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2605D9E7280F45BA00E37AC1 /* GitPulls.xcdatamodeld */; };
+		26BC417D2816FED600029FEB /* NetworkRequest+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC41792816FED600029FEB /* NetworkRequest+User.swift */; };
+		26BC417E2816FED600029FEB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC417A2816FED600029FEB /* User.swift */; };
+		26BC417F2816FED600029FEB /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC417B2816FED600029FEB /* PullRequest.swift */; };
+		26BC41802816FED600029FEB /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC417C2816FED600029FEB /* NetworkRequest.swift */; };
+		26BC41872816FFF700029FEB /* PullRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC41822816FFF700029FEB /* PullRequestsView.swift */; };
+		26BC41882816FFF700029FEB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC41832816FFF700029FEB /* SignInView.swift */; };
+		26BC41892816FFF700029FEB /* PullRequestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC41852816FFF700029FEB /* PullRequestsViewModel.swift */; };
+		26BC418A2816FFF700029FEB /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC41862816FFF700029FEB /* SignInViewModel.swift */; };
+		26BC418E281724C000029FEB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BC418D281724C000029FEB /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2605D9D9280F45B900E37AC1 /* GitPulls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPulls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2605D9DC280F45B900E37AC1 /* GitPullsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPullsApp.swift; sourceTree = "<group>"; };
-		2605D9DE280F45B900E37AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2605D9E0280F45BA00E37AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2605D9E3280F45BA00E37AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2605D9E5280F45BA00E37AC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		2605D9E8280F45BA00E37AC1 /* GitPulls.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitPulls.xcdatamodel; sourceTree = "<group>"; };
+		26BC41792816FED600029FEB /* NetworkRequest+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkRequest+User.swift"; sourceTree = "<group>"; };
+		26BC417A2816FED600029FEB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		26BC417B2816FED600029FEB /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
+		26BC417C2816FED600029FEB /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		26BC41822816FFF700029FEB /* PullRequestsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsView.swift; sourceTree = "<group>"; };
+		26BC41832816FFF700029FEB /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		26BC41852816FFF700029FEB /* PullRequestsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestsViewModel.swift; sourceTree = "<group>"; };
+		26BC41862816FFF700029FEB /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		26BC418D281724C000029FEB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,10 @@
 		2605D9DB280F45B900E37AC1 /* GitPulls */ = {
 			isa = PBXGroup;
 			children = (
+				26BC41842816FFF700029FEB /* ViewModel */,
+				26BC41812816FFF700029FEB /* Views */,
+				26BC41782816FED600029FEB /* Model */,
 				2605D9DC280F45B900E37AC1 /* GitPullsApp.swift */,
-				2605D9DE280F45B900E37AC1 /* ContentView.swift */,
-				2605D9E0280F45BA00E37AC1 /* Assets.xcassets */,
-				2605D9E5280F45BA00E37AC1 /* Persistence.swift */,
-				2605D9E7280F45BA00E37AC1 /* GitPulls.xcdatamodeld */,
 				2605D9E2280F45BA00E37AC1 /* Preview Content */,
 			);
 			path = GitPulls;
@@ -71,6 +80,36 @@
 				2605D9E3280F45BA00E37AC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26BC41782816FED600029FEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26BC41792816FED600029FEB /* NetworkRequest+User.swift */,
+				26BC417A2816FED600029FEB /* User.swift */,
+				26BC417B2816FED600029FEB /* PullRequest.swift */,
+				26BC417C2816FED600029FEB /* NetworkRequest.swift */,
+				26BC418D281724C000029FEB /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26BC41812816FFF700029FEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26BC41822816FFF700029FEB /* PullRequestsView.swift */,
+				26BC41832816FFF700029FEB /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26BC41842816FFF700029FEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				26BC41852816FFF700029FEB /* PullRequestsViewModel.swift */,
+				26BC41862816FFF700029FEB /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2605D9E4280F45BA00E37AC1 /* Preview Assets.xcassets in Resources */,
-				2605D9E1280F45BA00E37AC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +181,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2605D9E6280F45BA00E37AC1 /* Persistence.swift in Sources */,
-				2605D9E9280F45BA00E37AC1 /* GitPulls.xcdatamodeld in Sources */,
-				2605D9DF280F45B900E37AC1 /* ContentView.swift in Sources */,
+				26BC41872816FFF700029FEB /* PullRequestsView.swift in Sources */,
+				26BC417D2816FED600029FEB /* NetworkRequest+User.swift in Sources */,
+				26BC417E2816FED600029FEB /* User.swift in Sources */,
+				26BC417F2816FED600029FEB /* PullRequest.swift in Sources */,
+				26BC41802816FED600029FEB /* NetworkRequest.swift in Sources */,
+				26BC41892816FFF700029FEB /* PullRequestsViewModel.swift in Sources */,
 				2605D9DD280F45B900E37AC1 /* GitPullsApp.swift in Sources */,
+				26BC418E281724C000029FEB /* Repository.swift in Sources */,
+				26BC41882816FFF700029FEB /* SignInView.swift in Sources */,
+				26BC418A2816FFF700029FEB /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +316,6 @@
 		2605D9ED280F45BA00E37AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -302,7 +345,6 @@
 		2605D9EE280F45BA00E37AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -351,19 +393,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2605D9E7280F45BA00E37AC1 /* GitPulls.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2605D9E8280F45BA00E37AC1 /* GitPulls.xcdatamodel */,
-			);
-			currentVersion = 2605D9E8280F45BA00E37AC1 /* GitPulls.xcdatamodel */;
-			path = GitPulls.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2605D9D1280F45B900E37AC1 /* Project object */;
 }
